@@ -1,0 +1,72 @@
+@import '../../Sass/mixin';
+@import '../../Sass/variables';
+
+
+.navbar-container{
+    width: 100%;
+    height: auto;
+    padding: .5rem 0rem;
+    background-color: rgba(0, 0, 0, 0.844);
+    opacity: 9;
+    &-content{
+        width: 70%;
+        height: auto;
+        margin:auto;
+        display: flex;
+        // padding: .5rem 0rem;
+        // background-color: lightblue;
+        &-left{
+            width:15%;
+            height:auto;
+            // background-color: lightcoral;
+        }
+        &-second{
+            
+                display: flex;
+                align-items: center;
+        width: 85%;
+        // background-color: blueviolet;
+        justify-content: space-between;
+            &-middle{
+                &>button{
+                color: white;
+                background: none;
+                border: none;
+                font-size: 1.5rem;  
+                }
+                &>button:not(:first-child){
+                    margin-left: 2rem;
+                }
+                
+            }
+            &-right{
+
+            }
+        }
+
+    }
+}
+.login{
+    padding: .7rem 2.5rem;
+    border-radius: 2rem;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    margin-right: 1rem;
+}
+.signin{
+    padding: .7rem 2.5rem;
+    border-radius: 2rem;
+    border: red;
+    background-color: red;
+    color: white;
+}
+
+
+// .navbar-container-content{
+//     width: 70%;
+//     height: auto;
+//     margin:auto;
+//     padding: .5rem 0rem;
+//     background-color: lightblue;   
+// }
