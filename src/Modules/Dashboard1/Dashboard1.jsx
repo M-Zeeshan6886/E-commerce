@@ -1,11 +1,14 @@
 import React from 'react';
 import Navbar from '../../Common/Navbar/Navbar';
 import './Dashboard1.scss';
+import Banner from '../../assets/slidermain.svg';
 import productImg from '../../assets/product1.png';
 import productImg2 from '../../assets/product2.png';
 import productImg3 from '../../assets/product3.png';
 import productImg4 from '../../assets/product4.png';
 import pitems from '../../assets/product5.png';
+import pitems6 from '../../assets/product6.png';
+import pitems7 from '../../assets/product7.png';
 
 const Dashboard1 = () => {
   return (
@@ -14,6 +17,22 @@ const Dashboard1 = () => {
     <div className='d-one-container'>
         <div className='d-one-container-content'>
         <Navbar />
+
+      <div className="d-one-container-content-slider">
+        <div className="d-one-container-content-slider-content">
+          <div className="d-one-container-content-slider-content-left">
+           <h1>Most Sold <span>Motion Simulator</span> in The World</h1>
+          <p>We sold more Motion Simulator platforms than all other vendors combined.</p>
+         <button className='f-btnslider'>BuyNow</button>
+         <button className='s-btnslider'>Learn More</button>
+         
+          </div>
+          <div className="d-one-container-content-slider-content-right">
+            <img src={Banner} alt='banner' />
+          </div>
+        </div>
+      </div>
+
         </div>
     </div>
     <div className='product-container'>
@@ -66,14 +85,14 @@ const Dashboard1 = () => {
 
 <CardItems tittle="Customize"
       data="Lorem ipsum dolor sit amit"
-      pro5={pitems}
+      pro5={pitems6}
       bg="#3E66BA"
       
       />
 
 <CardItems tittle="Hiring/Rental"
       data="Lorem ipsum dolor sit amit"
-      pro5={pitems}
+      pro5={pitems7}
       bg="#85958E"
       />
      

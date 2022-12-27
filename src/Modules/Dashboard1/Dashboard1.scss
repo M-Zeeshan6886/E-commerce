@@ -15,8 +15,79 @@
         background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+
+     &-slider{
+        width: 100%;
+        height: auto;
+        margin-top: 8rem;
+        padding: .5rem 0rem;
+        // background-color: aqua;
+        &-content{
+            width: 75%;
+            height: auto;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            padding: .5rem 0rem;
+            // background-color: olive;
+            &-left{
+                width: 48%;
+                height: auto;
+                padding: .5rem 0rem;
+                // background-color: lightcoral;
+
+                &>h1{
+                    font-size: 3.5rem;
+                    color: white;
+                    &>span{
+                        color: red;
+                        font-weight: bolder;
+                    }
+                }
+                &>p{
+                    font-size: 1.5rem;
+                    color: white;
+                    margin-bottom:2rem;
+                }
+            }
+            &-right{
+                width: 48%;
+                height: auto;
+                padding: .5rem 0rem;
+                
+                // background-color: peru;
+
+                &>img{
+                    width: 100%;
+                    height: 60vh;
+                    margin-left: 7rem;
+                }
+            
+            }
+        }
+     }
+
     }
 }
+.f-btnslider{
+    cursor: pointer;
+    padding: .7rem 2rem;
+    background-color: red;
+    border-radius:2rem;
+    color: white;
+    border: 1px solid red;
+}
+.s-btnslider{
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: .7rem 2rem;
+    background: none;
+    border-radius:2rem;
+    color: white;
+    border: 1px solid white;
+}
+
+
 //products
 
 .product-container{
@@ -148,7 +219,7 @@
 font-size: 35px;
 line-height: 61px;
 text-transform: capitalize;
-font-family: 'Open Sans';
+// font-family: 'Open Sans';
 color: #102042;
 display: flex;
 justify-content: center;
