@@ -1,0 +1,115 @@
+@import '../../Sass/mixin';
+
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    padding: 0rem 0rem;
+    // background-color: red;
+    &-content{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        // display: flex;
+        // padding: .5rem 0rem;
+        background-color:#F2F2F2;
+        &-row1{
+            width: 70%;
+            margin: auto;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            padding: .5rem 0rem;
+            // background-color: aqua;
+
+            &>hr{
+                width: .2px;
+                color: #6B6A6A;
+                // margin-right: 1rem;
+                // height: 60%;
+            }
+        }
+        &-row2{
+            width: 100%;
+            height: auto;
+            padding: 2rem 0rem;
+            display: flex;
+            justify-content:center ;
+            background-color: white;
+            &>img{
+                width: 10%;
+            }
+        }
+    }
+    &-bottom{
+        width: 100%;
+        height: auto;
+        padding: .5rem 0rem;
+        // background-color: lawngreen;
+        border-top: 1px solid #E0E0E0;
+        &-content{
+            width: 70%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: .5rem 0rem ;
+            margin: auto;
+            color: #6B6A6A;
+            // background-color: aqua;
+        }
+    }
+}
+.line-one{
+    margin-right: 3.5rem;
+    margin-left: 1rem;
+}
+.line-one{
+    
+}
+
+
+//FooterCards
+
+.footercard-container{
+    width: 30%;
+    height: auto;
+    padding: 1rem 0rem;
+    // background-color: lightgreen;
+    &-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    padding: .5rem 0rem;
+    // background-color: lightpink;
+    &-left{
+        // background-color: beige;
+    &>img{
+        width: 80%;
+        margin-right: .5rem;
+    }
+    }
+    &-right{
+        width: 70%;
+        // background-color: purple;
+        &>h1{
+            color: #333333;
+        }
+        &>p{
+            // width: 70%;
+            margin-top: 1rem;
+            color:  #6B6A6A;
+           font-size: 1.2rem;
+        }
+        &>button{
+            margin-top: 1rem;
+            padding: .7rem 2rem;
+            border: 1px solid gray;
+            color: #6B6A6A;
+            background: none;
+            border-radius: 2rem;
+        }
+    }
+    }
+}

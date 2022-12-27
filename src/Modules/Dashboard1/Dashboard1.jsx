@@ -9,6 +9,7 @@ import productImg4 from '../../assets/product4.png';
 import pitems from '../../assets/product5.png';
 import pitems6 from '../../assets/product6.png';
 import pitems7 from '../../assets/product7.png';
+import Footer from '../../Common/Footer/Footer';
 
 const Dashboard1 = () => {
   return (
@@ -100,6 +101,8 @@ const Dashboard1 = () => {
        </div>
    </div>
 
+
+   <Footer />
     </>
   )
 }
